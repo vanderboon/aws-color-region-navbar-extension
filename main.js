@@ -30,5 +30,5 @@ chrome.storage.local.get(region, (results)=>{
     if(color===undefined){
         return;
     }
-    document.querySelector('[class="globalNav-0325"]').style.backgroundColor=color;
+    document.querySelector('[class="globalNav-032"]').style.backgroundColor=color;
 })
